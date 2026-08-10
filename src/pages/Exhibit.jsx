@@ -25,7 +25,7 @@ export default function Exhibit() {
       <img
         src="/museum_barriers.png"
         alt=""
-        className="pointer-events-none fixed -bottom-24 left-1/2 z-20 w-72 -translate-x-1/2 select-none sm:-bottom-28 sm:w-210"
+        className="pointer-events-none fixed -bottom-10 left-1/2 z-20 w-72 -translate-x-1/2 select-none sm:-bottom-28 sm:w-210"
       />
 
       {projects.map((p) => {
