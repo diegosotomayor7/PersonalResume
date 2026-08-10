@@ -56,7 +56,7 @@ export const projects = [
   {
     id: 'sample-three',
     title: 'TXR Hackathon Project',
-    year: 2024,
+    year: 2026,
     medium: 'Figma, Unity',
     image: '/logos/vrheadset.webp',
     poster: '/posters/txr_poster.png',
@@ -81,7 +81,7 @@ export const projects = [
   {
     id: 'sample-four',
     title: 'Graph Machine Learning Research',
-    year: 2023,
+    year: 2026,
     medium: 'PyTorch',
     image: '/logos/graph.png',
     media: { type: 'image', src: '/posters/graphsposter.png' },
