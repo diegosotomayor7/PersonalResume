@@ -15,12 +15,12 @@ export const projects = [
       left: {
         src: '/tourists_pokemon/bulbasaur.webp',
         pixelArt: true,
-        className: 'bottom-6 left-4 w-16 sm:top-130 sm:left-30 sm:w-148',
+        className: 'bottom-6 left-4 w-16 sm:top-105 sm:left-30 sm:w-106',
       },
       right: {
         src: '/tourists_pokemon/snorlax.webp',
         pixelArt: true,
-        className: 'right-4 bottom-4 w-20 sm:top-122 sm:right-35 sm:w-116',
+        className: 'right-4 bottom-4 w-20 sm:top-105 sm:right-40 sm:w-80',
       },
     },
     description:
@@ -40,12 +40,12 @@ export const projects = [
       left: {
         src: '/tourists_nasa/astronaut.png',
         pixelArt: false,
-        className: 'bottom-6 left-4 w-16 sm:top-120 sm:left-20 sm:w-188',
+        className: 'bottom-6 left-4 h-16 sm:top-105 sm:left-10 sm:h-76',
       },
       right: {
         src: '/tourists_nasa/cosmog.webp',
         pixelArt: true,
-        className: 'right-4 bottom-4 w-20 sm:top-130 sm:right-35 sm:w-116',
+        className: 'right-4 bottom-4 w-20 sm:top-105 sm:right-30 sm:w-80',
       },
     },
     description:
@@ -65,12 +65,12 @@ export const projects = [
       left: {
         src: '/tourists_txr/diver.png',
         pixelArt: false,
-        className: 'bottom-6 left-4 w-16 sm:top-120 sm:left-20 sm:w-190',
+        className: 'bottom-6 left-4 h-16 sm:top-105 sm:left-14 sm:h-76',
       },
       right: {
         src: '/tourists_txr/piplup.webp',
         pixelArt: true,
-        className: 'right-4 bottom-4 w-20 sm:top-140 sm:right-42 sm:w-110',
+        className: 'right-4 bottom-4 w-20 sm:top-110 sm:right-32 sm:w-86',
       },
     },
     description:
@@ -89,12 +89,12 @@ export const projects = [
       left: {
         src: '/tourists_graphs/scientist.webp',
         pixelArt: false,
-        className: 'bottom-6 left-4 w-16 sm:top-130 sm:left-30 sm:w-128',
+        className: 'bottom-6 left-4 h-16 sm:top-110 sm:left-20 sm:h-86',
       },
       right: {
         src: '/tourists_graphs/psyduck.webp',
         pixelArt: true,
-        className: 'right-4 bottom-4 w-20 sm:top-130 sm:right-35 sm:w-116',
+        className: 'right-4 bottom-4 w-20 sm:top-110 sm:right-32 sm:w-86',
       },
     },
     description:

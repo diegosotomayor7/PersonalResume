@@ -15,7 +15,7 @@ export default function Exhibit() {
       style={{ backgroundImage: "url('/background.png')" }}
     >
       <header className="mx-auto mb-12 max-w-7xl px-6 text-center">
-        <h1 className="font-title mt-3 text-4xl tracking-wide text-gallery-wall-dark md:text-7xl">
+        <h1 className="font-title mt-3 text-4xl tracking-wide text-gallery-wall-dark md:text-6xl">
           Diego's Gallery of Projects
         </h1>
       </header>
@@ -25,7 +25,7 @@ export default function Exhibit() {
       <img
         src="/museum_barriers.png"
         alt=""
-        className="pointer-events-none fixed -bottom-24 left-1/2 z-20 w-72 -translate-x-1/2 select-none sm:-bottom-28 sm:w-260"
+        className="pointer-events-none fixed -bottom-24 left-1/2 z-20 w-72 -translate-x-1/2 select-none sm:-bottom-28 sm:w-210"
       />
 
       {projects.map((p) => {

@@ -30,14 +30,14 @@ export default function ProjectCarousel({ projects, onActiveChange }) {
 
   return (
     <div className="relative w-full">
-      <div className="relative h-80 sm:h-[28rem] overflow-hidden">
+      <div className="relative h-80 sm:h-[22rem] overflow-hidden">
         {projects.map((p, i) => {
           const diff = getOffset(i, index, projects.length)
           if (Math.abs(diff) > 1) return null
 
           const isActive = diff === 0
           const card = (
-            <div className="relative h-72 w-52 sm:h-122 sm:w-106 overflow-hidden rounded shadow-2xl bg-gallery-muted/20">
+            <div className="relative h-82 w-52 sm:h-102 sm:w-86 overflow-hidden rounded shadow-2xl bg-gallery-muted/20">
               {p.image && (
                 <img
                   src={p.image}
