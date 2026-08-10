@@ -1,4 +1,4 @@
-# Diego's Gallery of Projects
+# Diego Sotomayor Portfolio
 
 A portfolio site styled as a museum exhibit. Projects are displayed as
 pieces in a gallery, complete with a velvet-rope barrier, picture-frame
