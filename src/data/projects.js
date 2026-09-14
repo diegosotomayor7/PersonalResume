@@ -15,17 +15,17 @@ export const projects = [
       left: {
         src: '/tourists_pokemon/bulbasaur.webp',
         pixelArt: true,
-        className: 'bottom-6 left-4 w-16 sm:top-105 sm:left-30 sm:w-106',
+        className: 'bottom-6 left-4 w-24 sm:top-105 sm:left-30 sm:w-106',
       },
       right: {
         src: '/tourists_pokemon/snorlax.webp',
         pixelArt: true,
-        className: 'right-4 bottom-4 w-20 sm:top-105 sm:right-40 sm:w-80',
+        className: 'right-4 bottom-4 w-28 sm:top-105 sm:right-40 sm:w-80',
       },
     },
     description:
       'A Chrome extension that lets users play a simple game of "Higher or Lower" with Pokemon stats. The extension fetches data from the PokeAPI and displays two random Pokemon, prompting the user to guess which one has a higher base stat total. The game keeps track of the user\'s score and provides feedback on their guesses.',
-    tech: ['Python', 'JavaScript', 'HTML', 'CSS', 'Chrome Extension', 'ChromeAPI', 'PokeAPI'],
+    tech: ['JavaScript', 'HTML', 'CSS', 'Chrome Extension', 'ChromeAPI', 'PokeAPI'],
     github: 'https://github.com/diegosotomayor7/Chrome-Extension-Higher-or-Lower-Pokemon-Version-',
   },
   {
@@ -40,17 +40,17 @@ export const projects = [
       left: {
         src: '/tourists_nasa/astronaut.png',
         pixelArt: false,
-        className: 'bottom-6 left-4 h-16 sm:top-105 sm:left-10 sm:h-76',
+        className: 'bottom-6 left-4 h-24 sm:top-105 sm:left-10 sm:h-76',
       },
       right: {
         src: '/tourists_nasa/cosmog.webp',
         pixelArt: true,
-        className: 'right-4 bottom-4 w-20 sm:top-105 sm:right-30 sm:w-80',
+        className: 'right-4 bottom-4 w-28 sm:top-105 sm:right-30 sm:w-80',
       },
     },
     description:
       "NASA SUITS (Spacesuit User Interface Technologies for Students) is a challenge that tasks university teams with designing and building software interfaces for space exploration. For the 2026 competition, my team built a three-screen display system that helps astronauts autonomously navigate the lunar south pole and search for a damaged Lunar Terrain Vehicle (LTV). My task was to design a telemetry dashboard that would reduce astronaut cognitive load during high-stakes tasks. Our design was selected as one of the top 5 designs in the nation, earning us the opportunity to test our interface in person at the Johnson Space Center.",
-    tech: ['React', 'FastAPI', 'TypeScript', 'TailwindCSS', 'Docker'],
+    tech: ['React', 'TypeScript', 'TailwindCSS', 'FastAPI', 'Docker'],
     github: 'https://github.com/Rice-ARVR/OWL-SUITS-2026-PR',
   },
   {
@@ -65,12 +65,12 @@ export const projects = [
       left: {
         src: '/tourists_txr/diver.png',
         pixelArt: false,
-        className: 'bottom-6 left-4 h-16 sm:top-105 sm:left-14 sm:h-76',
+        className: 'bottom-6 left-4 h-24 sm:top-105 sm:left-14 sm:h-76',
       },
       right: {
         src: '/tourists_txr/piplup.webp',
         pixelArt: true,
-        className: 'right-4 bottom-4 w-20 sm:top-110 sm:right-32 sm:w-86',
+        className: 'right-4 bottom-4 w-28 sm:top-110 sm:right-32 sm:w-86',
       },
     },
     description:
@@ -89,12 +89,12 @@ export const projects = [
       left: {
         src: '/tourists_graphs/scientist.webp',
         pixelArt: false,
-        className: 'bottom-6 left-4 h-16 sm:top-110 sm:left-20 sm:h-86',
+        className: 'bottom-6 left-4 h-24 sm:top-110 sm:left-20 sm:h-86',
       },
       right: {
         src: '/tourists_graphs/psyduck.webp',
         pixelArt: true,
-        className: 'right-4 bottom-4 w-20 sm:top-110 sm:right-32 sm:w-86',
+        className: 'right-4 bottom-4 w-28 sm:top-110 sm:right-32 sm:w-86',
       },
     },
     description:

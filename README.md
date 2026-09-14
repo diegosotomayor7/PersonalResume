@@ -5,7 +5,7 @@ pieces in a gallery, complete with a velvet-rope barrier, picture-frame
 carousel, and a couple of mascot "tourists" that wander in for each
 exhibit.
 
-Live at: _add your deployed URL here_
+Live at: https://diegosotomayorportfolio.vercel.app/
 
 ## Tech stack
 
@@ -40,6 +40,8 @@ public/
   tourists_<name>/  mascot images shown while a project is active
   background.png    exhibit background
   museum_barriers.png  velvet-rope overlay
+  headshot.png      profile photo shown in the page header
+  linkedinlogo.webp LinkedIn badge overlaid on the headshot
 
 src/
   data/projects.js         all project content (single source of truth)
