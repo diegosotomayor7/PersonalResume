@@ -7,13 +7,13 @@ export const projects = [
     id: 'sample-one',
     title: 'Pokemon: Higher or Lower',
     year: 2025,
-    medium: 'Python, JavaScript, HTML, CSS',
+    medium: 'C++, SQL, JavaScript, HTML, CSS',
     image: '/logos/pokelogo.png',
     poster: '/posters/pokemon_poster.png',
     media: { type: 'video', src: '/videos/pokemon.mp4' },
     description:
       'A Chrome extension that lets users play a simple game of "Higher or Lower" with Pokemon stats. The extension displays two random Pokemon, prompting the user to guess which one has a higher base stat total. The game keeps track of the user\'s score and provides feedback on their guesses.',
-    tech: ['JavaScript', 'HTML', 'CSS', 'Chrome Extension', 'ChromeAPI', 'PokeAPI'],
+    tech: ['C++', 'SQL', 'JavaScript', 'HTML', 'CSS', 'Chrome Extension', 'PokeAPI'],
     github: 'https://github.com/diegosotomayor7/Chrome-Extension-Higher-or-Lower-Pokemon-Version-',
   },
   {
