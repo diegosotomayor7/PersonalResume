@@ -9,7 +9,7 @@ function getOffset(i, index, length) {
   return diff
 }
 
-export default function ProjectCarousel({ projects, onActiveChange }) {
+export default function ProjectCarousel({ projects }) {
   const [index, setIndex] = useState(0)
 
   const goPrev = () => setIndex((i) => (i - 1 + projects.length) % projects.length)
@@ -23,10 +23,6 @@ export default function ProjectCarousel({ projects, onActiveChange }) {
     window.addEventListener('keydown', onKeyDown)
     return () => window.removeEventListener('keydown', onKeyDown)
   }, [projects.length])
-
-  useEffect(() => {
-    onActiveChange?.(projects[index])
-  }, [index, projects, onActiveChange])
 
   return (
     <div className="relative w-full">
