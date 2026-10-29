@@ -28,3 +28,11 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+/* The site was designed while viewing it at 80% browser zoom, so match
+   that look at 100% zoom on desktop. Mobile already has its own layout. */
+@media (min-width: 768px) {
+  body {
+    zoom: 80%;
+  }
+}

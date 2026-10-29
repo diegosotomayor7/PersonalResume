@@ -6,7 +6,7 @@ const LINKEDIN_URL = 'https://www.linkedin.com/in/diego-sotomayor-0a0b97391'
 export default function Exhibit() {
   return (
     <main
-      className="min-h-screen bg-cover bg-center bg-no-repeat py-10"
+      className="min-h-full bg-cover bg-center bg-no-repeat py-10"
       style={{ backgroundImage: "url('/background.png')" }}
     >
       <header className="mx-auto mb-6 flex max-w-7xl flex-col items-center justify-center gap-4 px-6 text-center md:flex-row md:gap-6">
