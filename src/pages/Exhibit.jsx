@@ -1,5 +1,5 @@
 import { projects } from '../data/projects'
-import ProjectCarousel from '../components/ProjectCarousel'
+import ProjectCards from '../components/ProjectCards'
 
 const LINKEDIN_URL = 'https://www.linkedin.com/in/diego-sotomayor-0a0b97391'
 
@@ -35,7 +35,8 @@ export default function Exhibit() {
         </div>
       </header>
 
-      <ProjectCarousel projects={projects} />
+      <ProjectCards projects={projects} />
+      
     </main>
   )
 }

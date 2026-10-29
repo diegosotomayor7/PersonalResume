@@ -13,7 +13,9 @@ export const projects = [
     media: { type: 'video', src: '/videos/pokemon.mp4' },
     description:
       'A Chrome extension that lets users play a simple game of "Higher or Lower" with Pokemon stats. The extension displays two random Pokemon, prompting the user to guess which one has a higher base stat total. The game keeps track of the user\'s score and provides feedback on their guesses.',
-    tech: ['C++', 'SQL', 'JavaScript', 'HTML', 'CSS', 'Chrome Extension', 'PokeAPI'],
+    shortDescription:
+      'A Chrome extension game: guess which Pokemon has the higher stat.',
+    tech: ['C++', 'SQL', 'JavaScript', 'HTML', 'CSS'],
     github: 'https://github.com/diegosotomayor7/Chrome-Extension-Higher-or-Lower-Pokemon-Version-',
   },
   {
@@ -26,6 +28,8 @@ export const projects = [
     media: { type: 'video', src: '/videos/nasa.mp4' },
     description:
       "NASA SUITS (Spacesuit User Interface Technologies for Students) is a challenge that tasks university teams with designing and building software interfaces for space exploration. For the 2026 competition, my team built a three-screen display system that helps astronauts autonomously navigate the lunar south pole and search for a damaged Lunar Terrain Vehicle (LTV). My task was to design a telemetry dashboard that would reduce astronaut cognitive load during high-stakes tasks. Our design was selected as one of the top 5 designs in the nation, earning us the opportunity to test our interface in person at the Johnson Space Center.",
+    shortDescription:
+      'A lunar navigation dashboard for astronauts — a top-5 national design tested at Johnson Space Center.',
     tech: ['React', 'TypeScript', 'TailwindCSS', 'FastAPI', 'Docker'],
     github: 'https://github.com/Rice-ARVR/OWL-SUITS-2026-PR',
   },
@@ -39,6 +43,8 @@ export const projects = [
     media: { type: 'video', src: '/videos/txr.mp4' },
     description:
       'A fun, virtual reality project built for the TXR Hackathon. Designed to make training for underwater welding cheaper and safer, this VR experience allows users to practice welding in a simulated underwater environment. I designed the score, oxygen and time components of the interface and wrote the code to integrate them with the Unity game engine. The project was awarded the "Best Solution" award.',
+    shortDescription:
+      'A VR underwater welding trainer built in Unity — winner of "Best Solution" at the TXR Hackathon.',
     tech: ['Figma', 'Unity', 'C#', 'Meta Quest'],
     github: null,
   },
@@ -51,7 +57,9 @@ export const projects = [
     media: { type: 'image', src: '/posters/graphsposter.png' },
     description:
       'Research project focused on answering the question: "Is Link Prediction beneficial for downstream Node Classification?" Implemented downstream Graph Convolutional Network (GCN) Node Classification, and three Link Prediction methods. Then augmented graphs based on two approaches. Saw an increase of 2.5% in classification accuracy in the Cora dataset. Working on a paper to submit to a peer-reviewed journal.',
-    tech: ['PyTorch', 'GNNs', 'GCNs', 'Graph Machine Learning', 'Matplotlib', 'NumPy', 'SciPy'],
+    shortDescription:
+      'Research that explores when link prediction boosts node classification accuracy',
+    tech: ['PyTorch', 'NumPy', 'SciPy', 'Matplotlib'],
     github: null,
   },
 ]

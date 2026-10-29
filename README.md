@@ -1,13 +1,15 @@
 # Diego Sotomayor Portfolio
 
 A portfolio site styled as a museum exhibit. Projects are displayed as
-pieces in a gallery, browsed through a picture-frame carousel.
+flip cards: hover (or tap on mobile) to flip a card from its logo to
+its demo video/image, with a short description and a "View Code" link
+underneath.
 
 Live at: https://diegosotomayorportfolio.vercel.app/
 
 ## Tech stack
 
-- [React 19](https://react.dev/) + [React Router](https://reactrouter.com/)
+- [React 19](https://react.dev/)
 - [Vite](https://vite.dev/) for dev server and build
 - [Tailwind CSS v4](https://tailwindcss.com/) for styling
 
@@ -40,10 +42,9 @@ public/
   linkedinlogo.webp LinkedIn badge overlaid on the headshot
 
 src/
-  data/projects.js         all project content (single source of truth)
-  pages/Exhibit.jsx         home page: header + carousel
-  pages/ProjectDetail.jsx   per-project detail page
-  components/ProjectCarousel.jsx  the sliding picture-frame carousel
+  data/projects.js             all project content (single source of truth)
+  pages/Exhibit.jsx            home page: header + card grid
+  components/ProjectCards.jsx  the flip-card grid
 ```
 
 ## Adding or editing a project
@@ -51,7 +52,7 @@ src/
 Everything about a project — title, year, media, description, tech
 tags, and links — lives in one place: `src/data/projects.js`. Add a
 new object to the `projects` array and it automatically appears in
-the carousel and gets its own detail page at `/project/<id>`.
+the card grid.
 
 ```js
 {
@@ -59,12 +60,13 @@ the carousel and gets its own detail page at `/project/<id>`.
   title: 'My Project',
   year: 2026,
   medium: 'React, Node.js',
-  image: '/logos/my-logo.png',        // shown in the carousel + detail page
+  image: '/logos/my-logo.png',        // card front
   poster: '/posters/my-poster.png',   // video poster frame (optional)
-  media: { type: 'video', src: '/videos/my-demo.mp4' }, // or { type: 'image', src: '...' }
-  description: 'What it is, who it is for, why it exists.',
+  media: { type: 'video', src: '/videos/my-demo.mp4' }, // or { type: 'image', src: '...' } — shown on the card back
+  description: 'Longer write-up (not currently shown on the site).',
+  shortDescription: 'One short sentence shown under the flipped card.',
   tech: ['React', 'Node.js'],
-  github: 'https://github.com/your-handle/my-project', // or null to hide the button
+  github: 'https://github.com/your-handle/my-project', // or null to hide the "View Code" link
 }
 ```
 
